@@ -31,3 +31,6 @@ php: ## Builds php container
 
 r: ## Builds R container
 	cd ./r/ && docker build -t r .
+
+rust: ## Builds rust container
+	cd ./rust/ && docker build -t rust .
