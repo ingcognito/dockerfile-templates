@@ -17,6 +17,9 @@ bash: ## Builds bash container
 go: ## Builds go container
 	cd ./go/ && docker build -t go .
 
+haskell: ## Builds haskell container
+	cd ./haskell/ && docker build -t haskell .
+
 nodejs: ## Builds nodejs container
 	cd ./nodejs/ && docker build -t nodejs .
 
