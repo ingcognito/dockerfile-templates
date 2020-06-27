@@ -23,6 +23,9 @@ haskell: ## Builds haskell container
 java: ## Builds java8 container
 	cd ./java/ && docker build -t java .
 
+javascript: ## Builds javascript container
+	cd ./javascript/ && docker build -t javascript .
+
 nodejs: ## Builds nodejs container
 	cd ./nodejs/ && docker build -t nodejs .
 
