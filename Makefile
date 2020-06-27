@@ -20,6 +20,9 @@ go: ## Builds go container
 haskell: ## Builds haskell container
 	cd ./haskell/ && docker build -t haskell .
 
+java: ## Builds java8 container
+	cd ./java/ && docker build -t java .
+
 nodejs: ## Builds nodejs container
 	cd ./nodejs/ && docker build -t nodejs .
 
