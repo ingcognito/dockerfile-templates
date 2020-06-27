@@ -19,3 +19,6 @@ go: ## Builds go container
 
 python: ## Builds python container
 	cd ./python/ && docker build -t python .
+
+php: ## Builds php container
+	cd ./php/ && docker build -t php .
