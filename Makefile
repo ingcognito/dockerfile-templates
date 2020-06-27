@@ -14,5 +14,8 @@ debian: ## Builds debian container
 bash: ## Builds bash container
 	cd ./bash/ && docker build -t bash .
 
+go: ## Builds go container
+	cd ./go/ && docker build -t go .
+
 python: ## Builds python container
 	cd ./python/ && docker build -t python .
